@@ -1,4 +1,5 @@
 📊 Sentiment Analysis System
+
 📌 Project Overview
 
 This project focuses on building an end-to-end Sentiment Analysis system to classify text data into sentiment categories (e.g. Positive, Negative, Neutral).
@@ -33,6 +34,7 @@ Handling missing and noisy data
 📌 Dataset source: (add link if public, or mention “custom dataset”)
 
 ⚙️ Methodology
+
 🔹 Data Preprocessing
 
 Lowercasing text
@@ -98,6 +100,7 @@ SHAP
 Matplotlib, Seaborn
 
 📁 Project Structure
+
 Sentiment-analysis-system/
 │
 ├── data/
@@ -151,6 +154,7 @@ Improve performance using hyperparameter tuning
 
 Aya Elsadek
 Machine Learning Engineer
+
 🔗 GitHub: https://github.com/ayaelsadek
 
 ⭐ If you find this project useful, feel free to star the repository!
