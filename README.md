@@ -31,7 +31,10 @@ Stopword removal
 
 Handling missing and noisy data
 
-📌 Dataset source: (add link if public, or mention “custom dataset”)
+📌 Dataset source: 
+
+The Arabic Sentiments dataset from Hugging Face was used in this project.The original dataset splits contained only one class per split, so the data was restructured by merging all splits and performing a stratified train-test split to ensure class balance.
+For the LSTM model, Arabic text preprocessing was applied, including normalization and noise removal. For the AraBERT model, raw text was used to preserve contextual information, as the tokenizer performs internal preprocessing.
 
 ⚙️ Methodology
 
@@ -47,43 +50,15 @@ Vectorization using TF-IDF / Embeddings
 
 🔹 Modeling
 
-The following models were implemented and compared:
-
-Logistic Regression
-
-Support Vector Machine (SVM)
-
-Naive Bayes
-
-Deep Learning models (LSTM / BERT – if applicable)
+Deep Learning models (LSTM / BERT)
 
 🔹 Evaluation Metrics
 
 Accuracy
 
-Precision
-
-Recall
-
-F1-score
-
-Confusion Matrix
-
 📈 Results
 
 The models were evaluated and compared to select the best-performing approach.
-
-Performance analysis shows that (best model name) achieved the highest results.
-
-Visualizations were used to analyze predictions and errors.
-
-📌 (You can add screenshots or charts here)
-
-🧪 Model Explainability
-
-Feature importance analysis using SHAP (if used)
-
-Interpretation of model predictions to improve transparency and trust
 
 🛠️ Technologies Used
 
@@ -94,8 +69,6 @@ NumPy, Pandas
 Scikit-learn
 
 TensorFlow / PyTorch
-
-SHAP
 
 Matplotlib, Seaborn
 
@@ -134,11 +107,7 @@ jupyter notebook
 
 Applying NLP preprocessing techniques effectively
 
-Comparing multiple ML and DL models
-
 Evaluating and interpreting sentiment classification results
-
-Building a complete ML pipeline from data to evaluation
 
 📌 Future Improvements
 
